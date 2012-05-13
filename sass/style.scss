@@ -1,0 +1,20 @@
+
+/*!
+ * Diligentia Intranet
+ */
+
+// Compass framework
+@import "compass/css3";
+@import "compass/typography";
+
+// Base parameters
+@import "partials/base";
+
+// CSS normalize
+@import "partials/normalize";
+
+// Main theme styles
+@import "partials/layout";
+
+// Retina graphics
+@import "partials/retina";
