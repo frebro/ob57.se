@@ -1,0 +1,67 @@
+
+@baseLine: 18px;
+
+@lightGrey: #fafafa;
+@richRed: #ff4e36;
+@coolBlue: #6ca7f7;
+
+
+body {
+	background: @lightGrey;
+}
+
+header {
+  background: darken(@lightGrey, 3%);
+  border-bottom: 1px solid darken(@lightGrey, 10%);
+  .container {
+    position: relative;
+    height: 114px + (4 * @baseLine);
+  }
+  .stripe {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 5%;
+
+    -moz-transform: skew(-30deg);
+    -webkit-transform: skew(-30deg);
+
+    &.blue {
+      background-color: @coolBlue;
+    }
+    &.red {
+      background-color: @richRed;
+    }
+  }
+  #stripe-blue1 {
+    width: 4%;
+    left: 2%;
+    opacity: .8;
+  }
+  #stripe-blue2 {
+    width: 6%;
+    left: 4%;
+    opacity: .6;
+  }
+  #stripe-blue3 {
+    width: 16%;
+    left: 12%;
+    opacity: .4;
+  }
+  #stripe-blue4 {
+    width: 8%;
+    left: 22%;
+    opacity: .2;
+  }
+  #stripe-red1 {
+    width: 4%;
+    right: 7%;
+    opacity: .8;
+  }
+  #logo {
+    position: absolute;
+    top: 2 * @baseLine;
+    left: 0;
+    z-index: 100;
+  }
+}

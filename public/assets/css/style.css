@@ -1,0 +1,56 @@
+body {
+  background: #fafafa;
+}
+header {
+  background: #f2f2f2;
+  border-bottom: 1px solid #e1e1e1;
+}
+header .container {
+  position: relative;
+  height: 186px;
+}
+header .stripe {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 5%;
+  -moz-transform: skew(-30deg);
+  -webkit-transform: skew(-30deg);
+}
+header .stripe.blue {
+  background-color: #6ca7f7;
+}
+header .stripe.red {
+  background-color: #ff4e36;
+}
+header #stripe-blue1 {
+  width: 4%;
+  left: 2%;
+  opacity: .8;
+}
+header #stripe-blue2 {
+  width: 6%;
+  left: 4%;
+  opacity: .6;
+}
+header #stripe-blue3 {
+  width: 16%;
+  left: 12%;
+  opacity: .4;
+}
+header #stripe-blue4 {
+  width: 8%;
+  left: 22%;
+  opacity: .2;
+}
+header #stripe-red1 {
+  width: 4%;
+  right: 7%;
+  opacity: .8;
+}
+header #logo {
+  position: absolute;
+  top: 36px;
+  left: 0;
+  z-index: 100;
+}
