@@ -1,6 +1,23 @@
 body {
   background: #fafafa;
 }
+figure {
+  margin: 0 0 18px;
+  position: relative;
+}
+figure figcaption {
+  background-color: black;
+  color: white;
+  padding: .25em 1em;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: .7;
+}
+figure figcaption a {
+  color: white;
+}
 header {
   background: #f2f2f2;
   border-bottom: 1px solid #e1e1e1;
@@ -28,10 +45,10 @@ header .stripe {
   -webkit-transform: skew(-30deg);
 }
 header .stripe.blue {
-  background-color: #6ca7f7;
+  background-color: #78ccff;
 }
 header .stripe.red {
-  background-color: #ff4e36;
+  background-color: #ff4628;
 }
 header #stripe-blue1 {
   width: 4%;
@@ -64,9 +81,10 @@ header #stripe-red1 {
   padding-bottom: 36px;
 }
 .resume {
+  border-bottom: 1px solid #e1e1e1;
   margin-bottom: 36px;
   padding-bottom: 36px;
 }
 .well {
-  background-color: #cde1fc;
+  background-color: #def3ff;
 }

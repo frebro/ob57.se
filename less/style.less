@@ -2,12 +2,29 @@
 @baseLine: 18px;
 
 @lightGrey: #fafafa;
-@richRed: #ff4e36;
-@coolBlue: #6ca7f7;
+@richRed: #ff4628;
+@coolBlue: #78ccff;
 
 
 body {
 	background: @lightGrey;
+}
+figure {
+  margin: 0 0 @baseLine;
+  position: relative;
+  figcaption {
+    background-color: black;
+    color: white;
+    padding: .25em 1em;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: .7;
+    a {
+      color: white;
+    }
+  }
 }
 
 header {
