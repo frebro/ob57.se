@@ -13,9 +13,19 @@ body {
 header {
   background: darken(@lightGrey, 3%);
   border-bottom: 1px solid darken(@lightGrey, 10%);
+  margin-bottom: 2 * @baseLine;
+  h2 {
+    font-size: 18px;
+    line-height: 27px;
+  }
   .container {
     position: relative;
-    height: 114px + (4 * @baseLine);
+    padding-bottom: 2 * @baseLine;
+    padding-top: 2 * @baseLine;
+  }
+  .row {
+    position: relative;
+    z-index: 100;
   }
   .stripe {
     position: absolute;
@@ -58,10 +68,20 @@ header {
     right: 7%;
     opacity: .8;
   }
-  #logo {
-    position: absolute;
-    top: 2 * @baseLine;
-    left: 0;
-    z-index: 100;
-  }
+}
+
+.about {
+  border-bottom: 1px solid darken(@lightGrey, 10%);
+  margin-bottom: 2 * @baseLine;
+  padding-bottom: 2 * @baseLine;
+}
+
+.resume {
+  border-bottom: 1px solid darken(@lightGrey, 10%);
+  margin-bottom: 2 * @baseLine;
+  padding-bottom: 2 * @baseLine;
+}
+
+.well {
+  background-color: lighten(@coolBlue, 20%);
 }

@@ -4,10 +4,20 @@ body {
 header {
   background: #f2f2f2;
   border-bottom: 1px solid #e1e1e1;
+  margin-bottom: 36px;
+}
+header h2 {
+  font-size: 18px;
+  line-height: 27px;
 }
 header .container {
   position: relative;
-  height: 186px;
+  padding-bottom: 36px;
+  padding-top: 36px;
+}
+header .row {
+  position: relative;
+  z-index: 100;
 }
 header .stripe {
   position: absolute;
@@ -48,9 +58,15 @@ header #stripe-red1 {
   right: 7%;
   opacity: .8;
 }
-header #logo {
-  position: absolute;
-  top: 36px;
-  left: 0;
-  z-index: 100;
+.about {
+  border-bottom: 1px solid #e1e1e1;
+  margin-bottom: 36px;
+  padding-bottom: 36px;
+}
+.resume {
+  margin-bottom: 36px;
+  padding-bottom: 36px;
+}
+.well {
+  background-color: #cde1fc;
 }
