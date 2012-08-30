@@ -21,6 +21,12 @@ figure figcaption {
 figure figcaption a {
   color: white;
 }
+.inline-block {
+  display: -moz-inline-stack;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+}
 header {
   background: #f2f2f2;
   border-bottom: 1px solid #e1e1e1;
