@@ -1,6 +1,9 @@
 body {
   background: #fafafa;
 }
+strong {
+  color: #ff4628;
+}
 figure {
   margin: 0 0 18px;
   position: relative;
@@ -79,6 +82,9 @@ header #stripe-red1 {
   border-bottom: 1px solid #e1e1e1;
   margin-bottom: 36px;
   padding-bottom: 36px;
+}
+.hero h3 {
+  margin-bottom: 1em;
 }
 .resume {
   border-bottom: 1px solid #e1e1e1;
